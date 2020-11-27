@@ -20,9 +20,9 @@ function AddSong({ addSong }) {
         type="text"
         onChange={handleOnChange}
         value={value}
-        placeholder="Your text here"
+        placeholder="Song Title"
       />
-      <button onClick={handleAdd}>Add</button>
+      <button onClick={handleAdd}>Add Song</button>
     </>
   );
 }
