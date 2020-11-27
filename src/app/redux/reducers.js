@@ -1,7 +1,7 @@
 import { ADD_SONG } from "./actionTypes";
 
 const initialPlaylistState = {
-  data: ["song 1", "song 2"],
+  data: [],
 };
 
 export const playlist = (state = initialPlaylistState, action) => {
